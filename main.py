@@ -13,7 +13,7 @@ password = 'changeme'
 database_name = 'student_db'
 
 # Define the database connection
-SQLALCHEMY_DATABASE_URL = "mysql+pymysql://{}:{}@{}/{}".format(user, password, host, database name)
+SQLALCHEMY_DATABASE_URL = "mysql+pymysql://{}:{}@{}/{}".format(user, password, host, database_name)
 
 # Create the SQLAlchemy engine and sessionmaker
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
